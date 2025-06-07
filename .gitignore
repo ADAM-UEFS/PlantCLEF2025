@@ -1,0 +1,9 @@
+*._
+._*
+*.DS_Store
+nohup2.out
+*.pth
+*.__
+__pycache__
+pretrained_models/*
+tests/logits/*
