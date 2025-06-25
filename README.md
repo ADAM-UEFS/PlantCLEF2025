@@ -42,4 +42,6 @@ For the test step, the script `test_submission.sh` is responsible for loading th
 
 # Acknowledgements
 
----
+We would like to thanks Dr. Rodrigo Tripodi Calumby and Dr. Rodrigo Pereira David as our advisors. We also would like to thanks Lukáš Picek for support and encouragement.
+
+This project was partially supported by UEFS and Capes.
