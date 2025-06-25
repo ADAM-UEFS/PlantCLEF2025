@@ -30,9 +30,13 @@ We have splitted the training into three different scripts:
 
 - `run_feature_extraction.sh`: extracts the features from the images containing a single plant sample
 - `run_kmeans.sh`: clusters the extracted features into **7806 clusters** one for each specie in the dataset
-- `run_zero_shot.sh`: trains a narrow ViT to predict the feature vector
+- `run_zero_shot.sh`: trains a narrow ViT to predict the target feature vector
 
 The scripts mentioned above should be called in the same order they are listed.
+
+### Tests
+
+For the test step, the script `test_submission.sh` is responsible for loading the test dataset and using the trained ViT to segment the image into relevant and irrelevant patches based on attention, collate neighbors by proximity and classifying these aggregated patches.
 
 ---
 
