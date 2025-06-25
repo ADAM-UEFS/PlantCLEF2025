@@ -26,7 +26,7 @@ Required packages:
 
 - PyTorch
 - timm
-- FAIS
+- FAISS
 - Pillow
 
 
