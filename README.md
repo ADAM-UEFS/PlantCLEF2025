@@ -8,6 +8,7 @@ Challenge's details are available [here](https://www.kaggle.com/competitions/pla
 
 # Proposal
 
+The core of our method is a narrow vision transformer (ViT), which we employ to perform segmentation i.e., discriminate between plant (relevant) and background elements (irrelevant). This ViT is trained to reconstruct class prototypes (clusters) from the training set (containing individual plants) from high-resolution quadrat images (test set). We adapt this model to perform segmentation, by using its attention scores to eliminate the background elements, and then perform classification over the remaining relevant patches - in a decrease and conquer fashion. 
 
 ## Results
 
