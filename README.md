@@ -35,10 +35,10 @@ Required packages:
 We have splitted the training into three different scripts:
 
 - `run_feature_extraction.sh`: extracts the features from the images containing a single plant sample
-- `run_kmeans.sh`: clusters the extracted features into **7806 clusters** one for each specie in the dataset
-- `run_zero_shot.sh`: trains a narrow ViT to predict the target feature vector
+- `run_kmeans.sh`: clusters the extracted features into **7806 clusters**, one for each specie in the dataset
+- `run_zero_shot.sh`: trains a narrow ViT to predict the target feature prototype vector
 
-The scripts mentioned above should be called in the same order they are listed.
+The scripts mentioned above should be called in the same order they are listed to achieve the required result.
 
 ### Tests
 
