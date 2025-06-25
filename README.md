@@ -22,7 +22,12 @@ We were able to achieve challenge's **5th position** with a score of **0.33331**
 
 Our whole project was built using **Python**, mainly **PyTorch**.
 
-More details about required packages and their versions are available on **requirements.txt**.
+Required packages:
+
+- PyTorch
+- timm
+- FAIS
+- Pillow
 
 
 ## Scripts
