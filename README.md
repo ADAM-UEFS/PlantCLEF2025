@@ -44,6 +44,11 @@ The scripts mentioned above should be called in the same order they are listed t
 
 For the test step, the script `test_submission.sh` is responsible for loading the test dataset and using the trained ViT to segment the image into relevant and irrelevant patches based on attention, collate neighbors by proximity and classifying these aggregated patches.
 
+## Data
+
+All data used for training and tests are available at [challenge's page](https://www.kaggle.com/competitions/plantclef-2025/data).
+
+
 ---
 
 # Acknowledgements
