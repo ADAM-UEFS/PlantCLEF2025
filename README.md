@@ -1,5 +1,9 @@
 # PlantCLEF 2025
 
+<p align="">
+  <img src="https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F2005261%2Faa1c37e41dc33488cdc9747358d9e529%2FCapture%20decran%202025-01-13%20a%2014.37.20.png?generation=1736775460913154&alt=media">
+</p>
+
 This repository keeps the code required for attempting to **PlantClef 2025 challenge**.
 
 Challenge's details are available [here](https://www.kaggle.com/competitions/plantclef-2025).
